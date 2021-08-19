@@ -8,7 +8,10 @@ const contact = () => {
       <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>
-          <form action="http://localhost:1337/requests" method="POST">
+          <form
+            action="https://formsubmit.co/juank987610@gmail.com"
+            method="POST"
+          >
             <div className="form-group">
               <input
                 type="text"

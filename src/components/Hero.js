@@ -12,10 +12,13 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1>I'm Juan</h1>
+
             <h4>Junior Front-end dev</h4>
+
             <Link to="/contact" className="btn">
               contact me
             </Link>
+
             <div className="social-links">
               {socialLinks.map(link => {
                 return (
